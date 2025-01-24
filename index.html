@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Excel Clone</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="toolbar">
+            <button id="add-row-btn">Add Row</button>
+            <button id="add-col-btn">Add Column</button>
+            <button id="sum-btn">SUM</button>
+            <button id="average-btn">AVERAGE</button>
+            <button id="max-btn">MAX</button>
+            <button id="min-btn">MIN</button>
+            <button id="count-btn">COUNT</button>
+            <button id="trim-btn">TRIM</button>
+            <button id="upper-btn">UPPER</button>
+            <button id="lower-btn">LOWER</button>
+            <button id="remove-duplicates-btn">REMOVE DUPLICATES</button>
+            <button id="find-replace-btn">FIND AND REPLACE</button>
+        </div>
+        <input type="text" id="formula-bar" placeholder="Enter formula here" />
+        <button id="export-btn">Export Spreadsheet</button>
+        <div>Cell: <span id="cell-status"></span></div>
+        <div id="spreadsheet-container"></div>
+        <script src="script.js"></script>
+        <script src="test_script.js"></script>
+    </body>
+</html>
